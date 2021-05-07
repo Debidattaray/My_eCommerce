@@ -7,3 +7,5 @@
 ---------------------------2------------------------------
 
 Main---->ProductsOverviewScreen------>ProductsGrid(get the data from Provider)------->ProductItem(passed the data using normal constructor)------------>ProductDetailScreen (onTap on single product id is passed to products details screen )
+----------------3----------------------------------
+converted the product class to provider to make the favorite functionality work.(using single products instace for provider obj)
